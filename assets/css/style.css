@@ -1,10 +1,45 @@
+header {
+    background-color: firebrick;
+}
+
 .logo {
-    background: url("../images/TheMonkeesLogo.png");
+    background-image: url("../images/TheMonkeesLogo.png");
+    background-color: firebrick;
+    padding: 0;
     background-position: center;
-    background: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     min-height: 180px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+footer {
+    background-color: firebrick;
+    color: #fafafa;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: rgb(26, 25, 25);
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: firebrick;
 }
