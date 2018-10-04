@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+
 header {
     background-color: firebrick;
+}
+
+/* -----------NAVBAR------------- */
+.navbar {
+    background-color: firebrick !important;
+}
+
+.nav-link {
+    margin: 20px;
+    font-size: 14pt;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+.first-page {
+    background-image: url("../images/monkees.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.first-page p {
+    margin: 0px;
+    color: #fafafa;
+    text-align: center;
+    font-size: 17pt;
+    font-family: Chicle, sans-serif;
+    text-shadow: 2px 2px #000000;
 }
 
 .logo {
@@ -10,9 +46,28 @@ header {
     background-repeat: no-repeat;
     background-size: auto;
     min-height: 180px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+p.lead {
+    font-family: Chicle, sans-serif;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 19pt;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0;
+}
+
+.jumbotron-fluid {
+    background-image: url("../images/monkees.jpg");
+    background-position: center;
+    min-height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
 
 footer {
@@ -20,7 +75,6 @@ footer {
     color: #fafafa;
     min-height: 180px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -35,9 +89,9 @@ footer {
     text-align: center;
     color: #fafafa;
     background: rgb(26, 25, 25);
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 
 .social-links li a i:hover {
