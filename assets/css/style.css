@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Chicle');
 
 header {
-    background-color: firebrick;
+    background-color: whitesmoke;
 }
 
 /* -----------NAVBAR------------- */
 .navbar {
-    background-color: firebrick !important;
+    background-color: whitesmoke !important;
 }
 
 .nav-link {
     margin: 20px;
-    font-size: 14pt;
+    font-size: 19pt;
+    font-family: Chicle, sans-serif;
+    color: rgba(0,0,0,.5);
 }
 
 .nav-link:hover {
@@ -40,7 +42,7 @@ header {
 
 .logo {
     background-image: url("../images/TheMonkeesLogo.png");
-    background-color: firebrick;
+    background-color: whitesmoke;
     padding: 0;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,8 +72,27 @@ p.lead {
     margin: 0;
 }
 
+.band {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Chicle, sans-serif;
+}
+
+.chairs {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    min-height: 500px;
+    width: 100%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
 footer {
-    background-color: firebrick;
+    background-color: whitesmoke;
     color: #fafafa;
     min-height: 180px;
     display: flex;
@@ -95,5 +116,5 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: firebrick;
+    background: gainsboro;
 }
