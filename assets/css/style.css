@@ -27,20 +27,19 @@ body {
 
 .first-page {
     background-image: url("../images/monkees.jpg");
-    background-size: auto 100%;
-    background-position: center;
+    width: 100%;
+    height: 700px;
     background-repeat: no-repeat;
-    padding-top: 300px;
-    padding-bottom: 200px;
-    padding-right: 300px;
-    padding-left: 300px;
+    background-size: cover;
 }
 
 .first-page p {
-    margin: 0px;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     color: #fafafa;
     text-align: center;
-    font-size: 17pt;
+    font-size: 19pt;
     font-family: Chicle, sans-serif;
     text-shadow: 2px 2px #000000;
 }
@@ -58,52 +57,49 @@ body {
     -o-transition: all 0.25s ease-in-out;
 }
 
-p.lead {
-    font-family: Chicle, sans-serif;
-    text-align: center;
-    padding-top: 200px;
-    font-size: 19pt;
-    color: white;
-    text-shadow: 2px 2px black;
-    margin: 0;
-}
-
-.jumbotron-fluid {
-    background-image: url("../images/monkees.jpg");
-    background-position: center;
-    min-height: 750px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
-
 .band {
     text-align: center;
     background-color: whitesmoke;
     font-family: Chicle, sans-serif;
 }
 
-.spotify {
-    text-align: center;
-    margin: 100px auto;
+#music {
+    color: gray;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
-.youtube {
-    text-align: center;
-    margin: 100px auto;
+#videos {
+    color: gray;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
-.pictures {
-    text-align: center;
-    margin: 100px 10px; 
+#photos {
+    color: gray;
+    margin-top: 75px;
 }
 
-.chairs {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 500px;
+#contact {
+    background-image: url("../images/1280px-The_Monkees.jpg");
     width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+hr:after {
+    content: "\00a0";
+}
+
+.my-button {
+    padding-top: 300px;
 }
 
 .img-circle {
@@ -116,24 +112,4 @@ footer {
     min-height: 180px;
     display: flex;
     justify-content: center;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    margin: 10px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: rgb(26, 25, 25);
-    -moz-transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: gainsboro;
 }
