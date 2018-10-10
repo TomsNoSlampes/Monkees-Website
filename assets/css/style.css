@@ -6,6 +6,7 @@ header {
 
 body {
     background-color: whitesmoke;
+    font-family: Chicle, sans-serif;
 }
 
 /* -----------NAVBAR------------- */
@@ -14,10 +15,10 @@ body {
 }
 
 .nav-link {
-    margin: 20px;
+    margin: 15px;
     font-size: 19pt;
     font-family: Chicle, sans-serif;
-    color: rgba(0,0,0,.5);
+    color: rgba(0, 0, 0, .5);
 }
 
 .nav-link:hover {
@@ -82,13 +83,19 @@ p.lead {
     font-family: Chicle, sans-serif;
 }
 
-.iframes {
-    align-items: center;
-    float: right;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: auto;
-    background-color: whitesmoke;
+.spotify {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.youtube {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.pictures {
+    text-align: center;
+    margin: 100px 10px; 
 }
 
 .chairs {

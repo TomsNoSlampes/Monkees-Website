@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel=" stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
@@ -27,7 +27,7 @@
                 <a class="nav-item nav-link" href="#band">BAND</a>
                 <a class="nav-item nav-link" href="#music">MUSIC</a>
                 <a class="nav-item nav-link" href="#videos">VIDEOS</a>
-                <a class="nav-item nav-link" href="#pictures">PICTURES</a>
+                <a class="nav-item nav-link" href="#photos">PHOTOS</a>
                 <a class="nav-item nav-link" href="#contact">CONTACT</a>
             </div>
         </div>
@@ -63,7 +63,8 @@
             <img src="../Monkees Website/assets/images/mnblackandwhite.jpg" class="img-circle" height=250 width=250>
         </div>
     </div>
-    <div class="container iframes" id="music">
+    <div class="container-fluid spotify" id="music">
+        <h1 class="text-center text-lg-left">Music</h1>
         <div class="row">
             <div class="col-6">
                 <iframe src="https://open.spotify.com/embed/album/13dRyx9FBYNrxm50BHl4GK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -71,7 +72,7 @@
             <div class="col-6">
                 <iframe src="https://open.spotify.com/embed/album/618fk3ITH2nXQtT0nTTZ84" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
-        </div>   
+        </div>
         <div class="row">
             <div class="col-6">
                 <iframe src="https://open.spotify.com/embed/album/4ozQXQgOhYqX2gaGMpWaOf" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -81,7 +82,8 @@
             </div>
         </div>
     </div>
-    <div class="container iframes" id="videos">
+    <div class="container-fluid youtube" id="videos">
+        <h1 class="text-center text-lg-left">Videos</h1>
         <div class="row">
             <div class="col-6">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -89,7 +91,7 @@
             <div class="col-6">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/wB9YIsKIEbA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-        </div>   
+        </div>
         <div class="row">
             <div class="col-6">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcXpKiY2MXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -99,30 +101,51 @@
             </div>
         </div>
     </div>
-   <!--  <div class="container" id="pictures">
-        <div class="row">
-            <div class="col-4">
-                <img src="../Monkees Website/assets/images/monkees_photos1.jpg" height="350" width="550" alt="The Monkees">
+    <div class="container">
+        <h1 class="text-center text-lg-left" id="photos">Photos</h1>
+        <div class="row text-center text-lg-left">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a target="_blank" href="../Monkees Website/assets/images/monkees_photos1.jpg" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos1.jpg" alt="the monkees">
+                </a>
             </div>
-            <div class="col-4">
-                <img src="../Monkees Website/assets/images/monkees_photos2.jpg" height="350" width="550" alt="The Monkees">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos2.jpg" alt="the monkees">
+                </a>
             </div>
-            <div class="col-4">
-                <img src="../Monkees Website/assets/images/monkees_photos3.jpg" height="350" width="550" alt="The Monkees">
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos3.jpg" alt="the monkees">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos4.jpg" alt="the monkees">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos5.jpg" alt="the monkees">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos6.jpg" alt="the monkees">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos7.jpg" alt="the monkees">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6">
+                <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="../Monkees Website/assets/images/monkees_photos8.jpg" alt="the monkees">
+                </a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <img src="../Monkees Website/assets/images/monkees_photos4.jpg" height="350" width="550" alt="The Monkees">
-            </div>
-            <div class="col-4">
-                <img src="../Monkees Website/assets/images/monkees_photos5.jpg" height="350" width="550" alt="The Monkees">
-            </div>
-            <div class="col-4">
-                <img src="../Monkees Website/assets/images/monkees_photos6.jpg" height="350" width="550" alt="The Monkees">
-            </div>
-        </div>
-    </div> -->
+    </div>
     <footer class="container-fluid" id="contact">
         <div class="chairs">
             <button type="button" class="btn btn-outline-secondary">CONTACT</button>
