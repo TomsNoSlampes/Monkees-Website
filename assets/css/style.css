@@ -4,6 +4,10 @@ header {
     background-color: whitesmoke;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 /* -----------NAVBAR------------- */
 .navbar {
     background-color: whitesmoke !important;
@@ -78,11 +82,19 @@ p.lead {
     font-family: Chicle, sans-serif;
 }
 
+.iframes {
+    align-items: center;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: auto;
+    background-color: whitesmoke;
+}
+
 .chairs {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
     min-height: 500px;
     width: 100%;
 }
