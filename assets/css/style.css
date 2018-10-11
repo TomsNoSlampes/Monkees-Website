@@ -16,6 +16,7 @@ body {
 
 .nav-link {
     margin: 15px;
+    padding: 0;
     font-size: 19pt;
     font-family: Chicle, sans-serif;
     color: rgba(0, 0, 0, .5);
