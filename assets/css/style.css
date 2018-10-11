@@ -11,7 +11,7 @@ body {
 
 /* -----------NAVBAR------------- */
 .navbar {
-    background-color: whitesmoke !important;
+    background-color: rgba(245, 245, 245, 0.664) !important;
 }
 
 .nav-link {
