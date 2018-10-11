@@ -59,6 +59,14 @@ body {
     margin-bottom: 75px;
 }
 
+.spotify-player {
+    margin-top: 75px;
+}
+
+.youtube-player {
+    margin-top: 75px;
+}
+
 #videos {
     color: gray;
     text-align: center;
