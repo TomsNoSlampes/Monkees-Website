@@ -23,7 +23,7 @@ Mockup can be viewed here: assets\images\TheMonkees_mockup.JPG
 
 5.Videos - Embedded youtube iframes showcasing some of the band’s best hit videos. Unfortunately the author restricted playback of the videos.
 
-6. Photos - A gallery with pictures from The Monkees photoshoots.
+6.Photos - A gallery with pictures from The Monkees photoshoots.
 
 7.Contact - Section with social media links.
 
