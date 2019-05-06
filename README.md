@@ -1,4 +1,4 @@
-# Monkees Website
+# The Monkees website
 
 This is my first milestone project for Code Institute Full-stack Developer course.
 The task was to create website for 1980's band The Monkees.
